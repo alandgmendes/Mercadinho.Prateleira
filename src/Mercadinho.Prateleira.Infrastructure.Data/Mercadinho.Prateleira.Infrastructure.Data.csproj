@@ -7,10 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contract\" />
-    <Folder Include="DataMappings\" />
     <Folder Include="Migrations\" />
-    <Folder Include="DataRegistration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mercadinho.Prateleira.Domain\Mercadinho.Prateleira.Domain.csproj" />
   </ItemGroup>
 
 </Project>

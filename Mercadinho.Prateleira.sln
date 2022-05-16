@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercadinho.Prateleira.API", "src\Mercadinho.Prateleira.API\Mercadinho.Prateleira.API.csproj", "{4423F2CE-7AD3-4A61-A2A7-724E921128A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercadinho.Prateleira.Domain", "src\Mercadinho.Prateleira.Domain\Mercadinho.Prateleira.Domain.csproj", "{5FB9734F-E757-4DFA-8E49-E14C568B7A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercadinho.Prateleira.Infrastructure.Data", "src\Mercadinho.Prateleira.Infrastructure.Data\Mercadinho.Prateleira.Infrastructure.Data.csproj", "{1C7A8559-919B-4B1D-858F-BA0827A40AEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4423F2CE-7AD3-4A61-A2A7-724E921128A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4423F2CE-7AD3-4A61-A2A7-724E921128A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4423F2CE-7AD3-4A61-A2A7-724E921128A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB9734F-E757-4DFA-8E49-E14C568B7A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB9734F-E757-4DFA-8E49-E14C568B7A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB9734F-E757-4DFA-8E49-E14C568B7A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB9734F-E757-4DFA-8E49-E14C568B7A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7A8559-919B-4B1D-858F-BA0827A40AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7A8559-919B-4B1D-858F-BA0827A40AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7A8559-919B-4B1D-858F-BA0827A40AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7A8559-919B-4B1D-858F-BA0827A40AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

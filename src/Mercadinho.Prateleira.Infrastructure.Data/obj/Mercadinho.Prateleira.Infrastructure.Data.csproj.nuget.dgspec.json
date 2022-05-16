@@ -4,14 +4,14 @@
     "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\Mercadinho.Prateleira.Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\Mercadinho.Prateleira.Infrastructure.Data.csproj": {
+    "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\Mercadinho.Prateleira.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\Mercadinho.Prateleira.Infrastructure.Data.csproj",
-        "projectName": "Mercadinho.Prateleira.Infrastructure.Data",
-        "projectPath": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\Mercadinho.Prateleira.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\Mercadinho.Prateleira.Domain.csproj",
+        "projectName": "Mercadinho.Prateleira.Domain",
+        "projectPath": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\Mercadinho.Prateleira.Domain.csproj",
         "packagesPath": "C:\\Users\\Alandouglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alandouglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,74 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\Mercadinho.Prateleira.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\Mercadinho.Prateleira.Infrastructure.Data.csproj",
+        "projectName": "Mercadinho.Prateleira.Infrastructure.Data",
+        "projectPath": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\Mercadinho.Prateleira.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Alandouglas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alandouglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\Mercadinho.Prateleira.Domain.csproj": {
+                "projectPath": "C:\\Users\\Alandouglas\\Desktop\\DigitalInovation\\cursos\\entityIntro\\MercadinhoPrateleira\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\Mercadinho.Prateleira.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
